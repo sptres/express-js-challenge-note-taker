@@ -13,7 +13,7 @@ const addNote = (note) => {
     return;
 };
 
-const removeNote = (note) => {
+const deleteNote = (note) => {
     for (let i = 0; i < notes.length; i++) {
         if (notes[i].id === note.id) {
             notes.splice(i, 1);
@@ -23,4 +23,4 @@ const removeNote = (note) => {
     return;
 };
 
-module.exports = { addNote, removeNote }
+module.exports = { addNote, deleteNote }
