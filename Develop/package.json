@@ -1,14 +1,22 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application that helps you takes notes as well as updating them. The application is made with express.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "sptres",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nanoid": "^3.1.30"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sptres/express-js-challenge-note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sptres/express-js-challenge-note-taker/issues"
   }
 }
